@@ -9,7 +9,10 @@ interface Props {
 export const Fab = ({title, position = 'br', onPress}: Props) => {
   return (
     <TouchableOpacity
-      style={position === 'bl' ? styles.fabLocationBL : styles.fabLocationBR}
+      style={[
+        styles.fabLocation,
+        position === 'bl' ? styles.left : styles.right,
+      ]}
       onPress={onPress}>
       <View style={styles.fab}>
         <Text style={styles.fabText}>{title}</Text>
@@ -19,15 +22,15 @@ export const Fab = ({title, position = 'br', onPress}: Props) => {
 };
 
 const styles = StyleSheet.create({
-  fabLocationBL: {
+  fabLocation: {
     position: 'absolute',
     bottom: 25,
-    left: 25,
   },
-  fabLocationBR: {
-    position: 'absolute',
-    bottom: 25,
+  right: {
     right: 25,
+  },
+  left: {
+    left: 25,
   },
   fab: {
     backgroundColor: '#5856D6',
