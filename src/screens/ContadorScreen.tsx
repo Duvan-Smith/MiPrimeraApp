@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {Button, Text, TouchableOpacity, View} from 'react-native';
+import {Text, TouchableOpacity, View} from 'react-native';
 
 export const ContadorScreen = () => {
   const [contador, setContador] = useState(10);
