@@ -1,7 +1,12 @@
-import {ContadorScreen} from './src/screens/ContadorScreen';
+import {SafeAreaView} from 'react-native';
+import {BoxObjectModelScreen} from './src/screens/BoxObjectModelScreen';
 
 const App = () => {
-  return <ContadorScreen />;
+  return (
+    <SafeAreaView>
+      <BoxObjectModelScreen />
+    </SafeAreaView>
+  );
 };
 
 export default App;
