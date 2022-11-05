@@ -3,7 +3,8 @@ import {BoxObjectModelScreen} from './src/screens/BoxObjectModelScreen';
 
 const App = () => {
   return (
-    <SafeAreaView>
+    // <SafeAreaView style={{height: 400, width: 300}}>
+    <SafeAreaView style={{flex: 1}}>
       <BoxObjectModelScreen />
     </SafeAreaView>
   );
