@@ -6,27 +6,6 @@ export const FlexScreen = () => {
       <Text style={styles.caja1}>Caja 1</Text>
       <Text style={styles.caja2}>Caja 2</Text>
       <Text style={styles.caja3}>Caja 3</Text>
-      <Text style={styles.caja1}>Caja 1</Text>
-      <Text style={styles.caja2}>Caja 2</Text>
-      <Text style={styles.caja3}>Caja 3</Text>
-      <Text style={styles.caja1}>Caja 1</Text>
-      <Text style={styles.caja2}>Caja 2</Text>
-      <Text style={styles.caja3}>Caja 3</Text>
-      <Text style={styles.caja1}>Caja 1</Text>
-      <Text style={styles.caja2}>Caja 2</Text>
-      <Text style={styles.caja3}>Caja 3</Text>
-      <Text style={styles.caja1}>Caja 1</Text>
-      <Text style={styles.caja2}>Caja 2</Text>
-      <Text style={styles.caja3}>Caja 3</Text>
-      <Text style={styles.caja1}>Caja 1</Text>
-      <Text style={styles.caja2}>Caja 2</Text>
-      <Text style={styles.caja3}>Caja 3</Text>
-      <Text style={styles.caja1}>Caja 1</Text>
-      <Text style={styles.caja2}>Caja 2</Text>
-      <Text style={styles.caja3}>Caja 3</Text>
-      <Text style={styles.caja1}>Caja 1</Text>
-      <Text style={styles.caja2}>Caja 2</Text>
-      <Text style={styles.caja3}>Caja 3</Text>
     </View>
   );
 };
@@ -38,7 +17,7 @@ const styles = StyleSheet.create({
     // flexDirection: 'row',
     // justifyContent: 'flex-end',
     // alignItems: 'flex-end',
-    flexWrap: 'wrap',
+    // flexWrap: 'wrap',
   },
   caja1: {
     // flex: 3, // 3 + 2 + 1 = 6, toma el 0.3 de 6
