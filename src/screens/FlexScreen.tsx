@@ -14,7 +14,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#28C4D9',
-    flexDirection: 'row',
+    // flexDirection: 'row',
+    // justifyContent: 'space-between',
   },
   caja1: {
     // flex: 3, // 3 + 2 + 1 = 6, toma el 0.3 de 6
